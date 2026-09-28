@@ -28,11 +28,13 @@ export default function SiteHeader() {
           ))}
         </nav>
         <a
-          href="#resume"
-          className="rounded-full bg-signal px-4 py-2 text-sm text-paper transition-transform hover:-translate-y-0.5"
-        >
-          Resume
-        </a>
+  href="/resume.pdf.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-full bg-signal px-4 py-2 text-sm text-paper transition-transform hover:-translate-y-0.5"
+>
+  Resume
+</a>
       </div>
     </header>
   );

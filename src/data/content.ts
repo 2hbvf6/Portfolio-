@@ -7,8 +7,8 @@ export const person = {
   degree: "B.Tech, Computer Science / Software Engineering", // sourced from her own repo README
   role: "AI/ML · Data Analytics · Web Development",
   location: "[MISSING INFORMATION: city/region]",
-  email: "[MISSING INFORMATION: email]",
-  linkedin: "[MISSING INFORMATION: LinkedIn URL]",
+ email: "ipsitaasaha7809@gmail.com",
+linkedin: "https://www.linkedin.com/in/ipsita-saha-35674b253",
   github: "https://github.com/2hbvf6",
 };
 
@@ -197,29 +197,36 @@ export const otherProjects = [
 
 export const experience = [
   {
-    org: "CodSoft", // [NEEDS CONFIRMATION: is this the internship referenced in the bio?]
-    role: "Web Development Intern", // [NEEDS CONFIRMATION]
-    duration: "[MISSING INFORMATION: dates]",
+    org: "CodSoft",
+    role: "Web Development Intern",
+    duration: "2026",
     summary:
-      "[NEEDS CONFIRMATION: specific responsibilities and projects completed during this internship — a related repository exists but its contents weren't detailed enough to describe the work accurately.]",
+      "Worked on web development projects including a landing page, personal portfolio, and temperature converter using HTML, CSS, and JavaScript.",
+  },
+  {
+    org: "Oasis Infobyte",
+    role: "Web Development Intern",
+    duration: "2026",
+    summary:
+      "Worked on web development projects involving responsive web pages and frontend development using HTML, CSS, and JavaScript.",
   },
 ];
 
 export const education = [
   {
-    degree: "B.Tech, Computer Science / Software Engineering",
-    institution: "[MISSING INFORMATION: institution name]", // graduation photos show a university convocation with "TIU"-lettered stoles
-    duration: "[MISSING INFORMATION]",
-    detail: "[MISSING INFORMATION: CGPA/percentage, honors]",
+    degree: "B.Tech, Computer Science & Engineering",
+    institution: "Techno India University, Kolkata",
+    duration: "2022-026",
+    detail: "CGPA: 8.18",
   },
 ];
 
 export const achievements = {
-  academic: ["[MISSING INFORMATION]"],
+  academic: [],
   technical: [
     "Research published via an IEEE conference proceeding (NIR turmeric adulteration project)",
   ],
-  certifications: ["[MISSING INFORMATION]"],
+  certifications: [],
   music: [
     "Live vocal performances at university cultural events",
     "Certificate of achievement received for a music/performance program",
@@ -238,7 +245,7 @@ export const resume = {
 };
 
 export const contact = {
-  email: "[MISSING INFORMATION]",
-  linkedin: "[MISSING INFORMATION]",
+  email: "ipsitaasaha7809@gmail.com",
+  linkedin: "https://www.linkedin.com/in/ipsita-saha-35674b253",
   github: "https://github.com/2hbvf6",
 };

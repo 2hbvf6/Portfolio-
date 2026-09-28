@@ -20,7 +20,7 @@ export default function Home() {
         <Timeline />
         <Achievements />
         <Music />
-        <ResumeSection />
+        
         <ContactSection />
       </main>
       <SiteFooter />

@@ -61,3 +61,27 @@ button:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 3px;
 }
+
+.music-journey-title {
+  position: relative;
+  display: inline-block;
+}
+
+.music-journey-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 3px;
+  background: #e53935;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: musicUnderline 1.2s ease-out forwards;
+}
+
+@keyframes musicUnderline {
+  to {
+    transform: scaleX(1);
+  }
+}
